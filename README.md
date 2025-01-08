@@ -22,15 +22,15 @@ Here’s a summary of what each file in this repository does:
 
 - **`cloud_evaluation.py`**: Contains logic for running custom evaluators in Azure AI Foundry.
   
-- **`local_evaluation.py`**: Runs local evaluations without (Will not show up in the Foundry portal).
+- **`local_evaluation.py`**: Runs local evaluations (Will not show up in the Foundry portal).
 
-- **`custom_evaluation.py`**: Initial testing of custom evaluators (similar to the `local_evaluation.py`, can ignore).
+- **`custom_evaluation.py`**: Initial testing of custom evaluators (similar to `local_evaluation.py`, can ignore).
 
-- **`microsoft_evaluation.py`**: Runs microsoft evaluators in the Foundry.
+- **`microsoft_evaluation.py`**: Runs Microsoft evaluators in Foundry.
 
-- **`neutrality/`**: Contains code for the Neutrality custom evaluator.
+- **`neutrality/`**: Contains code for the neutrality custom evaluator.
 
-- **`neutrality_local/`**: The artifiacts created after registering the neutrality custom evaluator.
+- **`neutrality_local/`**: The artifacts created after registering the neutrality custom evaluator.
 
 - **`evaluator_registration/`**: Contains code for registering evaluators (pushes evaluators to the "Evaluators" section of Azure AI Foundry).
 
@@ -42,7 +42,7 @@ Here’s a summary of what each file in this repository does:
 
 Once you've installed the requirements and updated your `.env` file, run any script by executing it with Python:
 
-`python 'file_name.py`
+`python file_name.py`
 
 
 
