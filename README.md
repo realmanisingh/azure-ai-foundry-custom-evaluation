@@ -32,7 +32,7 @@ Here’s a summary of what each file in this repository does:
 
 - **`neutrality_local/`**: The artifacts created after registering the neutrality custom evaluator.
 
-- **`evaluator_registration/`**: Contains code for registering evaluators (pushes evaluators to the "Evaluators" section of Azure AI Foundry).
+- **`evaluator_registration/`**: Contains code for registering the custom evaluators (pushes evaluators to the "Evaluators" section of Azure AI Foundry).
 
 - **`data/`**: Contains the sample data.
 
